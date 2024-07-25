@@ -1,0 +1,36 @@
+
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/16
+
+###
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "ara",
+    "email": "ara@gmail.com",
+    "gender": "female"
+}
+
+###
+PATCH  http://localhost:5000/users/16
+Content-Type: application/json
+
+{
+    "name": "aratel",
+    "email": "aratel@gmail.com",
+    "gender": "male"
+}
+
+###
+DELETE  http://localhost:5000/users/15
+Content-Type: application/json
+
+{
+    "name": "aratel",
+    "email": "aratel@gmail.com",
+    "gender": "male"
+}
