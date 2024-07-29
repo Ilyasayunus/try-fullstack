@@ -1,11 +1,11 @@
-
+import Userlist from "./components/Userlist";
 
 function App() {
   return (
     <div>
-      <h1>Lorem ipsum dolor sir</h1>
+      <Userlist></Userlist>
     </div>
   );
-}
+};
 
 export default App;
